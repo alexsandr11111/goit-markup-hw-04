@@ -55,8 +55,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
-}
+  padding: 0 15px;}
 /* ------------------ HEDER---------------- */
 .heder {
   border-bottom: 1px solid #e7e9fc;
@@ -112,10 +111,10 @@ body {
 
   color: var(--color-grey);
 }
-.nav:hover {
+.nav-last:hover {
   color: var(--color-ocean);
 }
-.nav:focus {
+.nav-last:focus {
   color: var(--color-ocean);
 }
 /* address */
@@ -151,7 +150,8 @@ body {
 }
 .heroy {
   padding: 188px 0;
-  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/people-office\ 1.png);
+  background-size: cover;
 }
 .heroy-title {
   max-width: 496px;
@@ -198,6 +198,7 @@ body {
 /* ------features-section------ */
 .features-section {
   padding: 120px 0;
+
 }
 
 .features-hidden-title {
@@ -233,6 +234,16 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--color-slate);
+}
+.features-last-icon{
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F4F4FD;
+border-radius: 4px;
+margin-bottom: 8px;
 }
 /* ------/features-section------ */
 /* ------ galerey-section -------- */
@@ -304,11 +315,62 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 
   color: var(--color-slate);
 }
-/* -------------- /description ------------ */
+.description-social-icon{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.description-list-icon{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.description-icon{
+  fill: #ffffff;
+}
+
+/* -------------- /description ------------ */
+/* -------------- customers-section ---------- */
+.customers-title{
+padding-top: 120px;
+padding-bottom: 72px;
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: var(--color-grey);
+
+}
+.customers-last{
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center
+}
+.customers-list{
+  margin-bottom: 120px;
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+/* -------------- /customers-section ---------- */
 /* =============================== /INDEX.HTML=========================== */
 /* =============================== PORTFOLIO.HTML=========================== */
 .soft-bar-section {
@@ -413,6 +475,7 @@ body {
 footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  
 }
 
 .footer-logo {
@@ -429,6 +492,13 @@ footer {
 
   color: var(--color-iris);
 }
+.footer-container{
+  display: flex;
+  
+}
+.footer-social-container{
+  margin-left: 100px;
+}
 .footer-logo-span {
   color: var(--color-cloud);
 }
@@ -442,4 +512,18 @@ footer {
 
   color: var(--color-cloud);
 }
+.footer-social-title{
+  
+padding-bottom: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+border: 1px solid #000000;
+
+}
+
 /* ------------------/Footer---------------- */
