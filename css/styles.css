@@ -530,7 +530,7 @@ footer {
 .footer-container{
   display: flex;
   align-items: baseline;
-  gap: 16px
+  
 }
 
 .footer-logo-span {
@@ -549,10 +549,10 @@ footer {
 }
 .footer-social-title{
   
-padding-bottom: 16px;
+margin-bottom: 16px;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
@@ -560,5 +560,26 @@ color: #FFFFFF;
 border: 1px solid #000000;
 
 }
+.footer-social-icon{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.footer-social-icon:hover{
+  background-color: #31d0aa;
+}
+.footer-social-icon:focus{
+  background-color: #31d0aa;
+}
+.footer-list-icon{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 /* ------------------/Footer---------------- */
