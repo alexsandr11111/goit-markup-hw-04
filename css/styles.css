@@ -368,15 +368,30 @@ margin-bottom: 72px;
 color: var(--color-grey);
 
 }
-.customers-icon{
+.customers-last-icon{
 width: 100%;
 height: 100%;
 border: 1px solid #8E8F99;
 border-radius: 4px;
 display: flex;
 justify-content: center;
-align-items: center
+align-items: center;
+
+color: var(--color-light-slate);
+
 }
+.customers-last-icon:hover{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-last-icon:focus{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-icon{
+  fill: currentColor;
+}
+
 .customers-list{
 
 display: flex;
