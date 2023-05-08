@@ -145,11 +145,13 @@ body {
 /* =============================== INDEX.HTML=========================== */
 /* --------heroy-------- */
 .heroy-container {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .heroy {
+  margin: auto;
   max-width: 1440px;
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
@@ -160,7 +162,7 @@ body {
 .heroy-title {
   max-width: 496px;
 
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 
   font-weight: 700;
   font-size: 56px;
@@ -468,9 +470,7 @@ gap: 24px;
   color: var(--color-white);
 }
 /* ------------- thumbnail-------- -- */
-.thumbnail-container {
-  padding-bottom: 120px;
-}
+
 .thumbnail-list{
   display: block;
 }
@@ -547,9 +547,9 @@ footer {
   color: var(--color-cloud);
 }
 .footer-text {
-  margin-bottom: 16px;
+  
   width: 264px;
-  min-height: 72px;
+
   font-size: 16px;
   line-height: 1.5;
 
@@ -567,7 +567,7 @@ letter-spacing: 0.02em;
 
 color: #FFFFFF;
 
-border: 1px solid #000000;
+
 
 }
 .footer-social-icon{
